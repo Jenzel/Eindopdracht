@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3366CC">
+
+    <Button
+        android:id="@+id/annuleerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Annuleren"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="106dp"
+        android:layout_alignLeft="@+id/aantal"
+        android:layout_alignStart="@+id/aantal" />
+
+    <Button
+        android:id="@+id/boekingbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boeken"
+        android:layout_above="@+id/annuleerbutton"
+        android:layout_marginBottom="9dp"
+        android:layout_alignRight="@+id/annuleerbutton"
+        android:layout_alignEnd="@+id/annuleerbutton"
+        android:layout_alignLeft="@+id/annuleerbutton"
+        android:layout_alignStart="@+id/annuleerbutton" />
+
+    <TextView
+        android:id="@+id/bestemmingnaam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/boekingbutton"
+        android:layout_alignEnd="@+id/boekingbutton"
+        android:layout_alignLeft="@+id/aantal"
+        android:layout_alignStart="@+id/aantal" />
+
+    <TextView
+        android:id="@+id/aantal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/boekingbutton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="35dp"
+        android:text="Aantal:"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/aantalticketsedittekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/aantal"
+        android:layout_toRightOf="@+id/aantal"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="204dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:layout_below="@+id/bestemmingnaam"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/boekingbutton"
+        android:layout_alignEnd="@+id/boekingbutton"
+        android:layout_alignLeft="@+id/bestemmingnaam"
+        android:layout_alignStart="@+id/bestemmingnaam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:id="@+id/sterren"
+        android:layout_below="@+id/info"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/boekingbutton"
+        android:layout_alignEnd="@+id/boekingbutton"
+        android:layout_alignLeft="@+id/info"
+        android:layout_alignStart="@+id/info" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:id="@+id/prijs"
+        android:layout_below="@+id/sterren"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignRight="@+id/sterren"
+        android:layout_alignEnd="@+id/sterren"
+        android:layout_alignLeft="@+id/sterren"
+        android:layout_alignStart="@+id/sterren" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:src="@drawable/city"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="197dp"
+        android:layout_alignLeft="@+id/aantalticketsedittekst"
+        android:layout_alignStart="@+id/aantalticketsedittekst" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
