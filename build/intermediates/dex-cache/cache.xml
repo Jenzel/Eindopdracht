@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Jens\Desktop\Android projects\Eindopdracht\Eindopdracht_IMTPMD\build\intermediates\pre-dexed\debug\classes-f8b762c5547fa3cd74c658224793870f61109163.jar"
+        jar="C:\Users\Jens\Desktop\Android projects\Eindopdracht\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\Jens\Desktop\Android projects\Eindopdracht\Eindopdracht_IMTPMD\build\intermediates\pre-dexed\debug\support-v4-19.1.0-dad0854d679d1618bbeafa4b1b3923accaaf3c02.jar"
+        jar="C:\Users\Jens\AppData\Local\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+
+</pre-dex-items>

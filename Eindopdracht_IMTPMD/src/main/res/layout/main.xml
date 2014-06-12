@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3366CC"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/uitje"
+        android:layout_alignLeft="@+id/keuze"
+        android:layout_alignStart="@+id/keuze"
+        android:layout_alignBottom="@+id/keuze"
+        android:layout_marginBottom="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignRight="@+id/main_header"
+        android:layout_alignEnd="@+id/main_header"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp">
+    </ListView>
+
+    <TextView
+        android:id="@+id/keuze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:text="Selecteer een stad naar keuze:"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/main_header"
+        android:text="'t Uitje"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parijs"
+        android:id="@+id/button"
+        android:layout_below="@+id/keuze"
+        android:layout_alignLeft="@+id/keuze"
+        android:layout_alignStart="@+id/keuze"
+        android:onClick="parijs"
+        android:layout_marginRight="118dp"
+        android:layout_alignRight="@+id/keuze"
+        android:layout_alignEnd="@+id/keuze" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reykjavik"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:onClick="reykjavik"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berlijn"
+        android:id="@+id/button3"
+        android:onClick="berlijn"
+        android:layout_alignEnd="@id/android:list"
+        android:layout_below="@+id/button4"
+        android:layout_alignRight="@+id/main_header"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amsterdam"
+        android:id="@+id/button4"
+        android:onClick="amsterdam"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/main_header"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/keuze2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecteer een hotel naar keuze:"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@id/android:list"
+        android:layout_alignStart="@id/android:list"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/city"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/keuze2"
+        android:layout_marginLeft="55dp" />
+</RelativeLayout>
+
